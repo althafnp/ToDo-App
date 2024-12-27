@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(97, 92, 92);
+    background-color: #333;
 }
 
 .to-do-list{
@@ -10,50 +10,63 @@ body{
 
 h1{
     font-size: 4rem;
-    color: white;
+    color: #e2b714;
 }
 
 button{
     font-size: 1.7rem;
     font-weight: bold;
     padding: 10px 20px;
-    color: white;
+    color: #d1d0c5;
     border: none;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    transition: background-color 0.5 ease;
+    transition: 0.1s ease-in-out;
     margin: 0 10px;
 }
 
 .add-btn{
-    background-color: hsl(125, 47%, 54%);
+    background-color: #2c2e31;
 }
 
 .add-btn:hover{
-    background-color: hsl(125, 47%, 44%);
+    background-color: #d1d0c5;
+    color: #333;
 }
 
+
 .edit-btn{
-    background-color: hsl(195, 83%, 45%);
+    background-color: #2c2e31;
 }
 
 .edit-btn:hover{
-    background-color: hsl(195, 83%, 35%);
+    background-color: #d1d0c5;
+    color: #333;
 }
 
 .delete-btn{
-    background-color: hsl(10, 90%, 50%);
+    background-color: #2c2e31;
 }
 
 .delete-btn:hover{
-    background-color: hsl(10, 90%, 40%);
+    background-color: #d1d0c5;
+    color: #333;
 
+}
+
+input {
+    background-color: #333;
+    border: 3px solid #1f2021;
+}
+input:focus {
+    background-color: #2c2e31;
+    border: 3px solid #333;
 }
 
 input[type = 'text']{
     font-size: 1.6rem;
     padding: 10px;
-    border: 2px solid hsla(0, 0%, 80%, 0.5);
     border-radius: 5px;
     color: gray;
 }
@@ -66,12 +79,13 @@ li{
     font-size: 2rem;
     font-weight: bold;
     padding: 15px;
-    background-color: hsl(0, 0%, 97%);
+    background-color: #2c2e31;
     margin-bottom: 10px;
-    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     display: flex;
     align-items: center;
+    color: #d1d0c5;
 }
 
 .text{
